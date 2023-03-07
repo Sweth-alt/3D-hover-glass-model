@@ -1,0 +1,7 @@
+In the HTML code, we have a container with a glass div inside it. The glass div has two child divs - glass-front and glass-back. We're using two images with the same source in each div to create the glass effect.
+
+In the CSS code, we're using the perspective property to give the container a 3D perspective. We're also using the transform-style property to preserve the 3D effect on the glass div. The glass-front and glass-back divs are positioned absolutely and have backface-visibility set to hidden to prevent flickering during the transition.
+
+The glass-front div is the top layer of the glass effect, and the glass-back div is the bottom layer. Both divs have a transparent background color and a box-shadow to create the glass effect.
+
+Finally, we're using a hover effect to rotate the glass div along the X and Y axes using the transform property.
